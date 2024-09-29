@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kartik Kumar">
+    <meta name="description" content="This is taco modified">
+    <title>Taco</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/genericStyles.css">
+    <link rel="stylesheet" href="./css/indexStyles.css">
+</head>
+<body>
+
+    <header class="body-header">
+        <h1>Welcome to The Little Taco Shop</h1>
+        <nav class="body-header-nav">
+            <ul>
+                <li><a href="#about-lts">About LTS</a></li>
+                <li><a href="#our-menu">Our Menu</a></li>
+                <li><a href="#our-contact-form">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main class="body-main">
+        <figure>
+            <img src="./img/tacos_and_drink_400x267.png" alt="Tacos and drink">
+            <figcaption>Tacos and Drink</figcaption>
+        </figure>
+
+        <section>
+            <h2 id="about-lts">About LTS</h2>
+            <p>LTS was founded in 2022. Our shop was built from a love of tacos 🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.</p>
+            <h3>Taco Trivia</h3>
+            <details>
+                <summary>when did tacos first appear in the United States?</summary>
+                <p>LTS was founded in 1947</p>
+            </details>
+        </section>
+
+        <hr>
+        <section>
+            <h2 id="our-menu">Our menu</h2>
+            <div class="our-menu-images">
+                <img src="./img/tacos_close_up_400x260.png" alt="menu image 1">
+                <img src="./img/tacos_and_drink_400x267.png" alt="menu image 2">
+                <img src="./img/tacos_tray_400x267.png" alt="menu image 3">
+            </div>
+            <table class="menu">
+                <caption>Our Tacos</caption>
+            <thead>
+                <tr>
+                    <th>Tacos</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3">Crunchy</th>
+                    <td>1</td>
+                    <td>rs5</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>rs5</td>    
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>rs5</td>
+                </tr>
+                <tr>
+                    <th rowspan="3">Soft</th>
+                    <td>1</td>
+                    <td>rs5</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>rs5</td>    
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>rs5</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Chips and salsa</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+        <br>
+        <hr>
+        <section>
+            <h2 id="our-contact-form">Our  Contact Form</h2>
+            <form action="/thanks.html" method="get">
+                <fieldset>
+                    <legend>
+                        Send us a message
+                    </legend>
+                    <label>Name : <input type="text" name="name" placeholder="your name" required></label>
+                    <br><br>
+                    <label>Email : <input type="email" name="email" placeholder="your email" required></label>
+                    <br><br>
+                    <label>
+                        Your message : 
+                        <br>
+                        <textarea name="message" cols="35" rows="6" placeholder="Type your message here"></textarea>
+                    </label>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <br>
+        <a href="#" class="back-to-top">Back to Top</a>
+
+    </main>
+    <hr>
+    <footer class="body-footer">
+        <p>Copyright © The Little Taco Shop - By Kartik Kumar</p>
+    </footer>
+</body>
+</html>
