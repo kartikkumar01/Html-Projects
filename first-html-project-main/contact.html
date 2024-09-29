@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Taco contact</title>
+<meta charset="UTF-8">
+<meta name="author" content="Kartik Kumar">
+<meta name="description" content="This is contact page.">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<header>
+<h1>The Little Taco Shop Hours</h1>
+<nav id="navBar">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/#aboutLts">About LTS</a></li>
+<li><a href="/#ourMenu">Our Menu</a></li>
+<li><a href="hours.html">Store hours</a></li>
+</ul>
+</nav>
+</header>
+<main id="main">
+<figure>
+<img src="img/tacos_close_up_400x260.png"  title="acos and drink image" alt="Tacos and drink image" width="400" height="260">
+<figcaption>Little Tacos Shop Tacos</figcaption>
+</figure>
+<section id="contactForm">
+<h2>Our Contact Form</h2>
+<form action="https://httpbin.org/post" method="post">
+<fieldset>
+<legend>Send Us a Message</legend>
+
+<p><label for="name">Name : </label>
+<input type="text" name="name" id="name" placeholder="your name" required autocomplete="on"></p>
+
+<label for="email">Email : </label>
+<input type="email" name="email" id="email" placeholder="your email" required autocomplete="on"><br><br>
+
+<label for="message">Your Message : </label><br>
+<textarea id="message" rows="10" cols="30" placeholder="Type your message here"></textarea>
+
+</fieldset>
+<button type="submit">Send</button>
+<button type="reset">Reset</button>
+</form>
+</section>
+<section id="ourLocation">
+<h2>Our Location</h2>
+<address>
+#210 sector 18 panchkula<br>
+Haryana-134109
+</address>
+<p>Phone : <a href="tel:555555555">555-555-5555</a></p>
+</section>
+<a href="#">Back to Top</a>
+</main>
+<hr>
+<footer id="footer">
+<p>Copyright &copy; The Little Taco Shop - By Kartik Kumar</p>
+</footer>
+</body>
+</html>

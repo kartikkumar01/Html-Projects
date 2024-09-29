@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kartik Kumar">
+    <title>Form</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <fieldset>
+        <legend>Amazon Form</legend>
+        <form action="/">
+            <label for="name">Your name</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="First and last name">
+            <br>
+            <label for="mob/email">Mobile number or email</label>
+            <br>
+            <input type="text" name="mob/email" id="mob/email">
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="retypePassword">Retype Password</label>
+            <br>
+            <input type="password" name="retypePassword" id="retypePassword">
+            <br>
+            <!-- take value="on" by default if checkbox is checked -->
+            <input type="checkbox" name="tnc" id="tnc" required>
+            <label for="tnc">Agree to the terms and conditions</label>
+            <br>
+            <button type="submit">continue</button>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Google search Engine</legend>
+        <form action="https://www.google.com/search" >
+            <input type="text" name="q">
+            <button type="submit">search</button>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Amazon search</legend>
+        <form action="https://www.amazon.com/s" >
+            <input type="text" name="k">
+            <button type="submit">search</button>
+        </form>
+    </fieldset>
+</body>
+</html>
